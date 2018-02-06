@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/root-context.xml</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>ru.ilya.servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+
+    <listener>
+        <listener-class>ru.ilya.servlet.MyContextLoader</listener-class>
+    </listener>
+
+</web-app>
