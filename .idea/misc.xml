@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1507802054240" />
+    <option name="importOrder" value="java;javax;org;com;com.croc" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../TN/Sandbox/Ksed/Dev043-RC/Sources/ksed_formatter.xml" />
+    <option name="selectedJavaProfile" value="KSED" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
@@ -10,7 +22,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
