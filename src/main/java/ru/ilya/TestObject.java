@@ -36,6 +36,10 @@ public class TestObject implements Serializable {
         this.myData = myData;
     }
 
+    /**
+     * Добавил комментарий.
+     * @return
+     */
     @Override
     public String toString() {
         return getMyData();
