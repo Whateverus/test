@@ -38,7 +38,7 @@ public class TestObject implements Serializable {
 
     /**
      * Добавил комментарий.
-     * @return
+     * @return дату
      */
     @Override
     public String toString() {
